@@ -1,0 +1,9 @@
+*~
+*.swp
+\#*\#
+.\#*
+gadget/*
+node_modules/*
+requests
+gadgets
+npm-debug.log
