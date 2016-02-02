@@ -1,22 +1,21 @@
 {
-  "name": "jstots",
+  "name": "jsmig",
   "version": "0.0.0",
-  "description": "",
+  "description": "transform src to lib",
   "main": "file1.js",
   "scripts": {
     "build": "babel src -d lib"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "img",
   "dependencies": {
     "babylon": "~6.4.5",
     "babel-traverse": "~6.4.5",
     "babel-types": "~6.4.5",
     "babel-generator": "~6.4.5",
     "babel-template": "~6.3.13",
-    "babel-plugin-transform-es3-member-expression-literals": "~6.3.13"
+    "babel-plugin-transform-typescript-prepare": "*"
   },
   "devDependencies": {
-    "babel-cli": "*"
+      "babel-cli": "*"
   }
 }

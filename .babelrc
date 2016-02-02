@@ -1,4 +1,8 @@
 {
-  "plugins": ["babel-plugin-ds"]
+    plugins: [
+        ["babel-plugin-transform-typescript-prepare", {
+            literal_only:true
+        }
+        ]
+    ]
 }
-
