@@ -6,6 +6,8 @@
   "scripts": {
     "build": "babel src -d lib"
   },
+  "repository": "empty",
+  "readme": "later",
   "author": "img",
   "dependencies": {
     "babylon": "~6.4.5",
@@ -16,6 +18,12 @@
     "babel-plugin-transform-typescript-prepare": "*"
   },
   "devDependencies": {
-      "babel-cli": "*"
+    "babel-cli": "*",
+    "gulp-babel": "~6.1.2",
+    "gulp-debug": "~2.1.2",
+    "path": "~0.12.7",
+    "gulp-watch": "~4.3.5",
+    "gulp-util": "~3.0.7",
+    "gulp-rename": "~1.2.2"
   }
 }
